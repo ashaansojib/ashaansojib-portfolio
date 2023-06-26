@@ -5,9 +5,9 @@ const Nav = () => {
     return (
         <nav className='p-2 bg-[#263238]'>
             <div className='my-container'>
-                <div className='flex justify-between items-center gap-2'>
+                <div className='flex justify-between items-center gap-2 py-2'>
                     <div>
-                        <h2 className='text-2xl font-semibold'>Sojib Khan</h2>
+                        <h2 className='text-2xl font-semibold'>Welcome Here !</h2>
                     </div>
                     <div className='grow'>
                         <ul className='flex justify-end gap-2'>

@@ -17,7 +17,7 @@ const Nav = () => {
                         </ul>
                     </div>
                     <div className='text-end'>
-                        <button className='py-2 px-4 inline bg-green-500 text-white font-medium hover:bg-black transition'>Download Resume</button>
+                        <button className='py-2 px-4 inline bg-green-500 text-white font-medium hover:bg-black transition'>Hire Me !</button>
                     </div>
                 </div>
             </div>

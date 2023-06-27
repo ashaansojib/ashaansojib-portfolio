@@ -15,14 +15,13 @@ const Header = () => {
             {/* <Particle /> */}
             <header className='p-4 bg-[#202124]'>
                 <div className='my-container'>
-                    <div className='grid grid-cols-3 justify-between items-center h-[400px]'>
+                    <div className='grid grid-cols-3 justify-between items-center h-[380px]'>
                         <div className='col-span-2 lg:space-y-2'>
                             <h2 className='text-3xl font-semibold' data-aos="fade-down" data-aos-duration="1500">I'm Ashaduzzaman <span className='text-green-500'>Sojib</span></h2>
                             <TypeAnimation
                                 sequence={[
-                                    // Same substring at the start will only be typed out once, initially
                                     'Front-end Web Developer',
-                                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                    1000,
                                     'JavaScript Developer',
                                     1000,
                                     'React JS Developer',

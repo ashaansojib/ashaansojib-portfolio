@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ProjectCard = ({item}) => {
     const {pName, imgLink, pLink} = item;
-    console.log(pName)
+    // console.log(pName)
     return (
         <Link to={pLink}>
             <div className='border border-gray-900 rounded-t-md bg-slate-950 hover:text-green-500 tooltip' data-tip="Click To Open">

@@ -16,5 +16,17 @@
         "pLink": "https://server-assigment.web.app/",
         "pName": "Chef - Grilled Corn",
         "imgLink": "https://i.ibb.co/hMBCmLH/Screenshot-from-2023-06-30-01-23-12.png"
+    },
+    {
+        "_id": "649dd991938e98b935a5b3b3",
+        "pLink": "https://tourmaline-raindrop-6c4d11.netlify.app/",
+        "pName": "Job Hunting",
+        "imgLink": "https://i.ibb.co/0YrSKzG/Screenshot-from-2023-07-01-18-08-14.png"
+    },
+    {
+        "_id": "649dd991938e98b935a5b3b3",
+        "pLink": "https://classy-kheer-9f9e0b.netlify.app/",
+        "pName": "Reading Your Fav Books",
+        "imgLink": "https://i.ibb.co/CKJ4451/Screenshot-from-2023-07-01-18-15-40.png"
     }
 ]

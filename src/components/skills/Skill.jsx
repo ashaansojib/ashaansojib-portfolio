@@ -6,7 +6,7 @@ const Skill = () => {
     return (
         <div className=' bg-slate-700 py-4'>
             <div className='my-container'>
-                <div className='grid grid-cols-4 items-center gap-3 justify-center py-4' data-aos="fade-up">
+                <div className='grid md:grid-cols-3 grid-cols-2 lg:grid-cols-4 items-center p-1 lg:gap-3 justify-center py-4' data-aos="fade-up">
                     <div className='p-2 border border-green-500 flex flex-col items-center justify-center'>
                         <FaHtml5 className='text-5xl text-red-500' />
                         <h2 className='text-xl uppercase'>HTML 5</h2>

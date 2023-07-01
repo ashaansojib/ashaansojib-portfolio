@@ -1,42 +1,41 @@
 import React from 'react';
-import ContactForm from './ContactForm';
 
 const Contact = () => {
     return (
-        <div className='bg-green-800 py-4'>
-            <div className='my-container'>
-            <h2 className='text-2xl font-semibold p-2 text-center border-b'>FAQs / Contact Me</h2>
-                <div className='grid grid-cols-2 gap-2'>
-                    <div>
-                        <div className="collapse collapse-plus">
-                            <input type="radio" name="my-accordion-3" checked="checked" />
-                            <div className="collapse-title text-xl font-medium">
-                                What is The Communications of Dairy?
-                            </div>
-                            <div className="collapse-content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ullam tempore! Pariatur veniam tempore, nemo sequi doloremque cum assumenda id accusamus ducimus ex quos rem enim repellendus! Dolor, fuga totam?</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-plus">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">
-                                What is JavaScript UseEffect?
-                            </div>
-                            <div className="collapse-content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam non aperiam molestiae consequatur commodi. Tempore, eveniet deserunt. Et laboriosam quam neque quos qui rem possimus perferendis obcaecati ipsam eveniet!</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-plus">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">
-                                How does React Hook Form?
-                            </div>
-                            <div className="collapse-content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quaerat. Reiciendis, debitis. Odit placeat reprehenderit repellendus nesciunt illum cumque, odio ut dignissimos animi deserunt, nemo aperiam, tempore perspiciatis soluta est!</p>
-                            </div>
-                        </div>
+        <div className="bg-gray-700 pb-4">
+            <div className="my-container">
+                <h2 className='text-2xl font-medium text-center py-4'>Contact ME</h2>
+                <div className='md:flex justify-center gap-2'>
+                    <div className='lg:w-[450px]'>
+                    <iframe style={{ height: '100%', width: '100%'}} src="https://www.google.com/maps/embed/v1/place?q=Patgram,+Lalmonirhat,+Bangladesh&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                     </div>
-                    <ContactForm />
+                    <div className='lg:w-[400px]'>
+                        <form className="card w-full rounded-none bg-base-100">
+                            <div className="card-body">
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Your Email</span>
+                                    </label>
+                                    <input type="text" placeholder="email" className="input input-bordered" />
+                                </div>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Your Name</span>
+                                    </label>
+                                    <input type="text" placeholder="Your Name" className="input input-bordered" />
+                                </div>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Messages</span>
+                                    </label>
+                                    <textarea className="textarea textarea-bordered" placeholder="Type your messages"></textarea>
+                                </div>
+                                <div className="form-control mt-6">
+                                    <button className="py-2 px-4 inline-block bg-gray-950 hover:bg-slate-800">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
